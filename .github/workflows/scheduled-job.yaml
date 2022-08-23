@@ -26,6 +26,13 @@ jobs:
 
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
+        run: |
+            remotes::install_cran("jsonlite")
+            remotes::install_cran("rmarkdown")
+            remotes::install_cran("tidyverse")
+            remotes::install_cran("textreadr")
+            remotes::install_cran("RCurl")
+        shell: Rscript {0}
         with:
           cache-version: 1
      
