@@ -9,22 +9,22 @@ li {list-style-type: none;}
 ```{r, projects, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
 
 library(textreadr)
-library(RCurl)
+
 
 usernames <- read.csv("usernames.csv")
 project <- "ggplot2"
 
 for(usr in usernames$username){
-  if(url.exists(paste0("https://github.com/staa566-csu/",project,"-",usr))){
+  if(is.null(suppressWarnings(try(open.connection(url(paste0("https://github.com/staa566-csu/",project,"-",usr)),open="rt",timeout=2),silent=T)[1]))){
     
     cat("### ",as.character(usernames[which(usernames$username==usr),"name"]), sep="")
     
     cat("\n[repo](https://github.com/staa566-csu/",project,"-",usr,")")
-    if(url.exists(paste0("https://staa566-csu.github.io/",project,"-",usr))){
+    if(is.null(suppressWarnings(try(open.connection(url(paste0("https://staa566-csu.github.io/",project,"-",usr)),open="rt",timeout=2),silent=T)[1]))){
       cat(", [ghpage](https://staa566-csu.github.io/",project,"-",usr,")", sep="")
     }
     
-    if(url.exists(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md"))){
+    if(is.null(suppressWarnings(try(open.connection(url(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md")),open="rt",timeout=2),silent=T)[1]))){
       cat("\n\n<details><summary>Read Me</summary>\n\n- ",read_html(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md")),"\n\n</details>", sep="")
     }    
   
@@ -32,4 +32,10 @@ for(usr in usernames$username){
   }
 }
 ```
+
+
+
+check <- suppressWarnings(try(open.connection(url("https://github.com/staa566-csu/ggplot2-AnderWilson"),,open="rt",timeout=2),silent=T)[1])
+check
+
 
