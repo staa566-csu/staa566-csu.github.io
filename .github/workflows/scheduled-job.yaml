@@ -31,11 +31,11 @@ jobs:
           
       - name: Install R packages
         run: |
-            remotes::install_cran("jsonlite")
-            remotes::install_cran("rmarkdown")
-            remotes::install_cran("tidyverse")
-            remotes::install_cran("textreadr")
-            remotes::install_cran("RCurl")
+            install.packages("jsonlite")
+            install.packages("rmarkdown")
+            install.packages("tidyverse")
+            install.packages("textreadr")
+            install.packages("RCurl")
         shell: Rscript {0}
      
       - name: Publish to GitHub Pages (and render)
