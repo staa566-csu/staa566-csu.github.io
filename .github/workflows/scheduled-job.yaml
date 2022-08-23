@@ -2,8 +2,8 @@ name: Quarto Publish
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
-
+    - cron: "0 2 * * *"
+    
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
