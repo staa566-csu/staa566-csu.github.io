@@ -25,6 +25,8 @@ for(usr in usernames$username){
     if(url.exists(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md"))){
       cat("\n- ",read_html(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md")), sep="")
     }    
+  
+  cat("\n\n")
   }
 }
 ```
