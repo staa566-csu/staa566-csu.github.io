@@ -26,6 +26,10 @@ jobs:
 
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
+          
+      - name: Install R packages
         run: |
             remotes::install_cran("jsonlite")
             remotes::install_cran("rmarkdown")
@@ -33,8 +37,6 @@ jobs:
             remotes::install_cran("textreadr")
             remotes::install_cran("RCurl")
         shell: Rscript {0}
-        with:
-          cache-version: 1
      
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
