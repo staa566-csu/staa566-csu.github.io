@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "ggplot2.html",
-    "href": "ggplot2.html",
-    "title": "ggplot2",
-    "section": "",
-    "text": "Ander Wilson (repo, ghpage)\nFake Student (repo)"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "STAA 566 Data Visualization",
     "section": "",
     "text": "Welcome to STAA 566 at CSU. Student work will be displayed on this page. Please see the tabs above to look for each assignment."
+  },
+  {
+    "objectID": "ggplot2.html",
+    "href": "ggplot2.html",
+    "title": "ggplot2",
+    "section": "",
+    "text": "Ander Wilson (repo, ghpage)\nFake Student (repo)\nBob Smith (repo)"
   }
 ]
