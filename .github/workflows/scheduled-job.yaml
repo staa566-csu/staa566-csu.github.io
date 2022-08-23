@@ -33,7 +33,6 @@ jobs:
         run: |
             install.packages("jsonlite")
             install.packages("rmarkdown")
-            install.packages("tidyverse")
             install.packages("textreadr")
             install.packages("RCurl")
         shell: Rscript {0}

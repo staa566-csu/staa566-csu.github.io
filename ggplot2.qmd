@@ -8,11 +8,10 @@ li {list-style-type: none;}
 
 ```{r, projects, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
 
-library(tidyverse)
 library(textreadr)
 library(RCurl)
 
-usernames <- read_csv("usernames.csv")
+usernames <- read.csv("usernames.csv")
 project <- "ggplot2"
 
 for(usr in usernames$username){
@@ -20,13 +19,13 @@ for(usr in usernames$username){
     
     cat("### ",as.character(usernames[which(usernames$username==usr),"name"]), sep="")
     
-    cat("\n- [repo](https://github.com/staa566-csu/",project,"-",usr,")")
+    cat("\n[repo](https://github.com/staa566-csu/",project,"-",usr,")")
     if(url.exists(paste0("https://staa566-csu.github.io/",project,"-",usr))){
       cat(", [ghpage](https://staa566-csu.github.io/",project,"-",usr,")", sep="")
     }
     
     if(url.exists(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md"))){
-      cat("\n- ",read_html(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md")), sep="")
+      cat("\n\n<details><summary>Read Me</summary>\n\n- ",read_html(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md")),"\n\n</details>", sep="")
     }    
   
   cat("\n\n")
@@ -34,6 +33,3 @@ for(usr in usernames$username){
 }
 ```
 
--   
-
--   

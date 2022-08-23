@@ -4,7 +4,7 @@
     "href": "ggplot2.html",
     "title": "ggplot2",
     "section": "",
-    "text": "Ander Wilson\n\nrepo, ghpage\nThis is a basic example used to illustrate the GitHub workflow used in class.\n\n\n\nFake Student\n\nrepo\ntest webpage 2"
+    "text": "Ander Wilson\nrepo, ghpage\n\n\nRead Me\n\n\nThis is a basic example used to illustrate the GitHub workflow used in class.\n\n\n\n\nFake Student\nrepo\n\n\nRead Me\n\n\ntest webpage 3"
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,19 @@
     "title": "STAA 566 Data Visualization",
     "section": "",
     "text": "Welcome to STAA 566 at CSU. Student work will be displayed on this page. Please see the tabs above to look for each assignment."
+  },
+  {
+    "objectID": "ggplot2.html#amazing-info",
+    "href": "ggplot2.html#amazing-info",
+    "title": "ggplot2",
+    "section": "Amazing Info",
+    "text": "Amazing Info\nIt would be great if a hyperlink could directly show this title."
+  },
+  {
+    "objectID": "ggplot2.html#tasks",
+    "href": "ggplot2.html#tasks",
+    "title": "ggplot2",
+    "section": "Tasks",
+    "text": "Tasks\n\n\n\nItem1\n\nItem2\n\nItem3"
   }
 ]
