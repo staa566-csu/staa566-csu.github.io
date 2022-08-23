@@ -1,0 +1,34 @@
+---
+title: "ggplot2"
+---
+
+```{css, echo=FALSE}
+li {list-style-type: none;}
+```
+
+```{r, projects, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
+
+library(tidyverse)
+library(textreadr)
+library(RCurl)
+
+usernames <- read_csv("usernames.csv")
+project <- "ggplot2"
+
+for(usr in usernames$username){
+  if(url.exists(paste0("https://github.com/staa566-csu/",project,"-",usr))){
+    
+    cat("### ",as.character(usernames[which(usernames$username==usr),"name"]), sep="")
+    
+    cat("\n- [repo](https://github.com/staa566-csu/",project,"-",usr,"), [ghpage](https://staa566-csu.github.io/",project,"-",usr,")", sep="")
+    
+    if(url.exists(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md"))){
+      cat("\n- ",read_html(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md")), sep="")
+    }    
+  }
+}
+```
+
+-   
+
+-   
