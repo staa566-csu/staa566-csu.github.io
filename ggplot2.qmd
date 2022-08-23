@@ -18,6 +18,7 @@ for(usr in usernames$username){
     cat(as.character(usernames[which(usernames$username==usr),"name"]), sep='')
     
     cat(" ([repo](https://github.com/staa566-csu/",project,"-",usr,")", sep='')
+    
     if(is.null(suppressWarnings(try(open.connection(url(paste0("https://staa566-csu.github.io/",project,"-",usr)),open="rt",timeout=2),silent=T)[1]))){
       cat(", [ghpage](https://staa566-csu.github.io/",project,"-",usr,"))", sep='')
     }else{
