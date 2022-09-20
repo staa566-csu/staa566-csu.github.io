@@ -3,3 +3,5 @@ title: "STAA 566 Data Visualization"
 ---
 
 Welcome to STAA 566 at CSU. Student work will be displayed on this page. Please see the tabs above to look for each assignment.
+
+Access the class organization here: [github.com/staa566-csu](https://github.com/staa566-csu)
