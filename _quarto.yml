@@ -8,6 +8,7 @@ website:
       - href: index.qmd
         text: Home
       - ggplot2.qmd
+      - dynamic.qmd
 
 format:
   html:
