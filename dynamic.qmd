@@ -6,7 +6,7 @@ title: "dynamic graphs"
 
 
 usernames <- read.csv("usernames.csv")
-project <- "ggplot2"
+project <- "dynamic-graphs"
 
 for(usr in usernames$username){
   if(is.null(suppressWarnings(try(open.connection(url(paste0("https://github.com/staa566-csu/",project,"-",usr)),open="rt",timeout=2),silent=T)[1]))){
