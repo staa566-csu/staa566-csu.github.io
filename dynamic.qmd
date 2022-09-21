@@ -34,5 +34,5 @@ for(usr in usernames$username){
   }
 }
 
-cat("\n\n\n\n",counter[1], "and", counter[2], "pages.")
+cat("\n\n\n\n",counter[1], "repos and", counter[2], "pages.")
 ```
