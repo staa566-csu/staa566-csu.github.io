@@ -8,6 +8,8 @@ title: "dynamic graphs"
 usernames <- read.csv("usernames.csv")
 project <- "dynamic-graphs"
 
+counter <- c(0,0)
+
 for(usr in usernames$username){
   if(is.null(suppressWarnings(try(open.connection(url(paste0("https://github.com/staa566-csu/",project,"-",usr)),open="rt",timeout=2),silent=T)[1]))){
     
@@ -17,6 +19,8 @@ for(usr in usernames$username){
     
     if(is.null(suppressWarnings(try(open.connection(url(paste0("https://staa566-csu.github.io/",project,"-",usr)),open="rt",timeout=2),silent=T)[1]))){
       cat(", [ghpage](https://staa566-csu.github.io/",project,"-",usr,"))", sep='')
+      
+      counter[2] <- counter[2] + 1
     }else{
       cat(")")
     }
@@ -26,6 +30,9 @@ for(usr in usernames$username){
     # }    
   
   cat("  \n")
+  counter[1] <- counter[1] + 1
   }
 }
+
+cat("\n\n\n\n",counter[1], "and", counter[2], "pages.")
 ```
