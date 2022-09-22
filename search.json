@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "STAA 566 Data Visualization",
-    "section": "",
-    "text": "Access the class organization here: github.com/staa566-csu"
-  },
-  {
     "objectID": "dynamic.html",
     "href": "dynamic.html",
     "title": "dynamic graphs",
@@ -14,10 +7,17 @@
     "text": "4 repos and 0 pages."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "STAA 566 Data Visualization",
+    "section": "",
+    "text": "Access the class organization here: github.com/staa566-csu"
+  },
+  {
     "objectID": "ggplot2.html",
     "href": "ggplot2.html",
     "title": "ggplot2",
     "section": "",
-    "text": "27 repos and 14 pages."
+    "text": "30 repos and 14 pages."
   }
 ]
