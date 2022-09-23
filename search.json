@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "STAA 566 Data Visualization",
-    "section": "",
-    "text": "Access the class organization here: github.com/staa566-csu"
-  },
-  {
     "objectID": "dynamic.html",
     "href": "dynamic.html",
     "title": "dynamic graphs",
     "section": "",
     "text": "6 repos and 0 pages."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "STAA 566 Data Visualization",
+    "section": "",
+    "text": "Access the class organization here: github.com/staa566-csu"
   },
   {
     "objectID": "ggplot2.html",
