@@ -1,12 +1,12 @@
 ---
-title: "Dynamic and Interactive Graphs"
+title: "Maps"
 ---
 
 ```{r, projects, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
 
 
 usernames <- read.csv("usernames.csv")
-project <- "dynamic-graphs"
+project <- "maps"
 
 counter <- c(0,0)
 

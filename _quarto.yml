@@ -7,8 +7,13 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - ggplot2.qmd
-      - dynamic.qmd
+      - href: ggplot2.qmd
+        text: ggplot2
+      - href: dynamic.qmd
+        text: dynamic graphs
+      - href: maps.qmd
+        text: maps
+        
 
 format:
   html:
