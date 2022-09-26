@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "maps.html",
+    "href": "maps.html",
+    "title": "Maps",
+    "section": "",
+    "text": "0 repos and 0 pages."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "STAA 566 Data Visualization",
@@ -9,9 +16,9 @@
   {
     "objectID": "dynamic.html",
     "href": "dynamic.html",
-    "title": "dynamic graphs",
+    "title": "Dynamic and Interactive Graphs",
     "section": "",
-    "text": "11 repos and 4 pages."
+    "text": "12 repos and 4 pages."
   },
   {
     "objectID": "ggplot2.html",
