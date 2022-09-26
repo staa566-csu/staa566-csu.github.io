@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "ggplot2.html",
-    "href": "ggplot2.html",
-    "title": "ggplot2",
+    "objectID": "maps.html",
+    "href": "maps.html",
+    "title": "Maps",
     "section": "",
-    "text": "32 repos and 30 pages."
-  },
-  {
-    "objectID": "dynamic.html",
-    "href": "dynamic.html",
-    "title": "Dynamic and Interactive Graphs",
-    "section": "",
-    "text": "13 repos and 4 pages."
+    "text": "0 repos and 0 pages."
   },
   {
     "objectID": "index.html",
@@ -21,10 +14,17 @@
     "text": "Access the class organization here: github.com/staa566-csu"
   },
   {
-    "objectID": "maps.html",
-    "href": "maps.html",
-    "title": "Maps",
+    "objectID": "dynamic.html",
+    "href": "dynamic.html",
+    "title": "Dynamic and Interactive Graphs",
     "section": "",
-    "text": "0 repos and 0 pages."
+    "text": "13 repos and 4 pages."
+  },
+  {
+    "objectID": "ggplot2.html",
+    "href": "ggplot2.html",
+    "title": "ggplot2",
+    "section": "",
+    "text": "32 repos and 30 pages."
   }
 ]
