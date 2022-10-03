@@ -13,6 +13,8 @@ website:
         text: dynamic graphs
       - href: maps.qmd
         text: maps
+      - href: tables.qmd
+        text: tables
         
 
 format:

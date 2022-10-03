@@ -1,0 +1,38 @@
+---
+title: "Tables"
+---
+
+```{r, projects, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
+
+
+usernames <- read.csv("usernames.csv")
+project <- "tables"
+
+counter <- c(0,0)
+
+for(usr in usernames$username){
+  if(is.null(suppressWarnings(try(open.connection(url(paste0("https://github.com/staa566-csu/",project,"-",usr)),open="rt",timeout=2),silent=T)[1]))){
+    
+    cat(as.character(usernames[which(usernames$username==usr),"name"]), sep='')
+    
+    cat(" ([repo](https://github.com/staa566-csu/",project,"-",usr,")", sep='')
+    
+    if(is.null(suppressWarnings(try(open.connection(url(paste0("https://staa566-csu.github.io/",project,"-",usr)),open="rt",timeout=2),silent=T)[1]))){
+      cat(", [ghpage](https://staa566-csu.github.io/",project,"-",usr,"))", sep='')
+      
+      counter[2] <- counter[2] + 1
+    }else{
+      cat(")")
+    }
+    
+    # if(is.null(suppressWarnings(try(open.connection(url(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md")),open="rt",timeout=2),silent=T)[1]))){
+    #   cat("\n\n<details><summary>Read Me</summary>\n\n- ",read_html(paste0("https://raw.githubusercontent.com/staa566-csu/",project,"-",usr,"/main/README.md")),"\n\n</details>", sep='')
+    # }    
+  
+  cat("  \n")
+  counter[1] <- counter[1] + 1
+  }
+}
+
+cat("\n\n\n\n",counter[1], "repos and", counter[2], "pages.")
+```
