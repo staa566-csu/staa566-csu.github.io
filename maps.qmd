@@ -5,7 +5,7 @@ title: "Maps"
 ```{r, projects, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
 
 
-usernames <- read.csv("usernames.csv")
+usernames <- read.csv("usernames.csv") %>% arrange(name)
 project <- "maps"
 
 counter <- c(0,0)
