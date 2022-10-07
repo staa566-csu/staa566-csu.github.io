@@ -5,7 +5,8 @@ title: "ggplot2"
 ```{r, projects, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
 
 
-usernames <- read.csv("usernames.csv") %>% arrange(name)
+usernames <- read.csv("usernames.csv")
+usernames <- usernames[order(usernames$name),]
 project <- "ggplot2"
 
 counter <- c(0,0)

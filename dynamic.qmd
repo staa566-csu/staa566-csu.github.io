@@ -5,7 +5,8 @@ title: "Dynamic and Interactive Graphs"
 ```{r, projects, results='asis', echo=FALSE, warning=FALSE, message=FALSE}
 
 
-usernames <- read.csv("usernames.csv") %>% arrange(name)
+usernames <- read.csv("usernames.csv")
+usernames <- usernames[order(usernames$name),]
 project <- "dynamic-graphs"
 
 counter <- c(0,0)
