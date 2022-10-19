@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "tables.html",
-    "href": "tables.html",
-    "title": "Tables",
-    "section": "",
-    "text": "30 repos and 29 pages."
-  },
-  {
     "objectID": "ggplot2.html",
     "href": "ggplot2.html",
     "title": "ggplot2",
     "section": "",
-    "text": "32 repos and 31 pages."
+    "text": "32 repos and 28 pages."
+  },
+  {
+    "objectID": "dynamic.html",
+    "href": "dynamic.html",
+    "title": "Dynamic and Interactive Graphs",
+    "section": "",
+    "text": "31 repos and 27 pages."
+  },
+  {
+    "objectID": "tables.html",
+    "href": "tables.html",
+    "title": "Tables",
+    "section": "",
+    "text": "30 repos and 27 pages."
   },
   {
     "objectID": "index.html",
@@ -25,13 +32,6 @@
     "href": "maps.html",
     "title": "Maps",
     "section": "",
-    "text": "30 repos and 29 pages."
-  },
-  {
-    "objectID": "dynamic.html",
-    "href": "dynamic.html",
-    "title": "Dynamic and Interactive Graphs",
-    "section": "",
-    "text": "31 repos and 30 pages."
+    "text": "30 repos and 27 pages."
   }
 ]
