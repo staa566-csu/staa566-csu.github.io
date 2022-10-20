@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/staa566-csu/staa566-csu.github.io/ggplot2.html</loc>
-    <lastmod>2022-10-20T10:30:40.709Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/staa566-csu/staa566-csu.github.io/dynamic.html</loc>
-    <lastmod>2022-10-20T10:31:15.317Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/staa566-csu/staa566-csu.github.io/tables.html</loc>
-    <lastmod>2022-10-20T10:31:46.592Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/staa566-csu/staa566-csu.github.io/index.html</loc>
-    <lastmod>2022-10-20T10:31:46.920Z</lastmod>
+    <lastmod>2022-10-20T12:54:58.932Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/staa566-csu/staa566-csu.github.io/maps.html</loc>
-    <lastmod>2022-10-20T10:32:21.508Z</lastmod>
+    <lastmod>2022-10-20T12:55:50.660Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/staa566-csu/staa566-csu.github.io/tables.html</loc>
+    <lastmod>2022-10-20T12:56:36.568Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/staa566-csu/staa566-csu.github.io/dynamic.html</loc>
+    <lastmod>2022-10-20T12:57:24.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/staa566-csu/staa566-csu.github.io/ggplot2.html</loc>
+    <lastmod>2022-10-20T12:58:12.384Z</lastmod>
   </url>
 </urlset>
