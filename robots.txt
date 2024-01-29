@@ -1,1 +1,1 @@
-Sitemap: https://github.com/staa566-csu/staa566-csu.github.io/sitemap.xml
+Sitemap: https://staa566-csu.github.io/sitemap.xml
